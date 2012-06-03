@@ -1,0 +1,7 @@
+body, .deck-container .slide, .deck-container {
+    background: #fdf6e3;
+}
+
+#what_is_accessability blockquote{
+    font-size: 140%;
+}
