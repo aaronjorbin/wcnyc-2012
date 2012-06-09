@@ -1,12 +1,10 @@
-<p><html>
+<html>
   <head>
-  <title>A slidedown.js presentation</title>
+  <title>Lessons from Making Millions of Websites More Accessible</title>
   <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
   <script src="js/modernizr.custom.js"></script>
 </head>
-</p>
-<p><body>
-</p>
+<body>
 <article class="deck-container">
 <ul>
 <li><h1>Lessons from Making Millions of Websites More Accessible</h1>
@@ -18,7 +16,7 @@
 </li>
 <li><h1>1.3 Billion users every month</h1>
 </li>
-<li><h2>What is Accessability</h2>
+<li><h2>What is Accessibility</h2>
 <blockquote>
 <p><a href="http://www.w3.org/standards/webdesign/accessibility">Accessibility supports social inclusion for people with disabilities as well as others, such as older people, people in rural areas, and people in developing countries.</a> </p>
 <p>&ndash; W3C</p>
@@ -26,19 +24,25 @@
 <p>&ndash; W3C</p>
 </blockquote>
 </li>
+<li><h2>What is one thing that you think every developer should know about Accessibility?</h2>
+<blockquote>
+<p><a href="https://twitter.com/DavidAKennedy/status/209999350116528129">It&#39;s often the decisions made before a line of code is written that impact accessibility the most</a>
+&ndash; David Kennedy</p>
+<p><a href="https://twitter.com/ewaccess/status/210033655085674496">Keyboard #a11y is a good sell. Power users don&#39;t like to use the mouse. Many AT users can&#39;t </a>
+&ndash; Eric Wright</p>
+</blockquote>
+</li>
 <li><h1>Assistive Technology</h1>
 </li>
-<li><p><img scr='img/glasses.png' alt='eyeglasses'></p>
+<li><p><img src='img/eye.png' alt='eyeglasses'></p>
 </li>
-<li><p><img src='img/headphones.png' alt='headphones'></p>
+<li><p><img src='img/earbuds.png' alt='headphones'></p>
 </li>
-<li><p><img src='img/brail.png' alt='braile text'></p>
+<li><p><img src='img/braille.png' alt='braille text'><em>Jakob Vogel, from The Noun Project</em></p>
 </li>
-<li><p><img src='img/magnifyingglass.png' alt='Magnifying Glass'></p>
+<li><p><img src='img/magnify.png' alt='Magnifying Glass'></p>
 </li>
-<li><p><img src='img/jawslogo.png' alt='Logo for JAWS screen reader'></p>
-</li>
-<li><h1>Not All Problems can be solved with Assistive Technology</h1>
+<li><h1>Not All Problems can be solved with assistive Technology</h1>
 </li>
 <li><p><img src='img/Ishihara_23.png' alt='Test image for Pretopinia' data-original="http://en.wikipedia.org/wiki/File:Ishihara_23.PNG" ></p>
 </li>
@@ -46,35 +50,129 @@
 </li>
 <li><h1>Product Owners</h1>
 </li>
-<li><h1>Understand your reqsponsibilies</h1>
+<li><h1>Understand your responsibilities</h1>
 </li>
-<li><h1>Prioritizing Accessability has additonal Benifits</h1>
+<li><h1>Prioritizing accessibility has additional benefits</h1>
 </li>
 <li><h1>SEO</h1>
 </li>
-<li><h1>What can we as developers do?</h1>
+<li><h1>Device Independence</h1>
+</li>
+<li><h1>Inclusive Work Environment</h1>
+</li>
+</ul>
+<!-- END PRODUCT OWNERS SECTION  -->
+
+<ul>
+<li><h1>Designers</h1>
+</li>
+<li><h1>Color Contrast</h1>
+<p><em><a href='http://www.w3.org/TR/WCAG/#visual-audio-contrast'>(L1 + 0.05) / (L2 + 0.05), where L1 is the relative luminance of the lighter of the colors, and L2 is the relative luminance of the darker of the colors.</a></em></p>
+</li>
+<li><h1>Click the Red Button</h1>
+</li>
+<li><h1>Check your colors</h1>
+</li>
+<li><p><img src="img/fo.png" alt="" title="Normal Vision old version" /></p>
+</li>
+<li><p><img src="img/po.png" alt="" title="Pronetopia old version" class='grow' /></p>
+</li>
+<li><p><img src="img/fn.png" alt="" title="Normal Vision now" class='grow' /></p>
+</li>
+<li><p><img src="img/pn.png" alt="" title="Pronetopia now" class='grow' /></p>
+</li>
+<li><h1>Caption your Videos</h1>
+</li>
+<li><h1>Developers</h1>
 </li>
 <li><h1>Use a screen reader</h1>
 </li>
-<li><h1>Who should I follow on Twitter?</h1>
+<li><h1>What are the standards and Specs I should care about?</h1>
 </li>
-<li><h1>What are the standards I should care about?</h1>
+<li><h1>HTML</h1>
+<p><em><a href='http://dev.w3.org/html5/spec/single-page.html'>A vocabulary and associated APIs for HTML and XHTML</a></em></p>
 </li>
-<li><h1> </h1>
+<li><h1>WAI-ARIA</h1>
+<p><em><a href='http://www.w3.org/WAI/intro/aria.php'>Accessible Rich Internet Applications</a></em></p>
+</li>
+<li><h1>WCAG 2.0</h1>
+<p><em><a href='http://www.w3.org/TR/WCAG/'>Web Content Accessibility Guidelines</a></em></p>
+</li>
+<li><h1>ATAG 2.0</h1>
+<p><em><a href='http://www.w3.org/TR/ATAG20/'>Authoring Tool Accessibility Guidelines</a></em></p>
+</li>
+<li><h1>508</h1>
+<p><em><a href='http://www.section508.gov/'>Section 508 of the Americans with Disabilities Act</a></em></p>
+</li>
+<li><h2>Jorbin&#39;s Three laws</h2>
+<blockquote>
+<p>If it has hover style, it needs focus style</p>
+<p>If it&#39;s an anchor tag, it needs an href</p>
+<p>If the HTML isn&#39;t in the order that is logical and is how things get displayed, you&#39;ll want to shoot yourself making it accessible</p>
+</blockquote>
+</li>
+<li><h1>Decisions</h1>
+</li>
+<li><h1>Accessibility starts with Usability</h1>
+</li>
+<li><h1>Aim for an appropriate level of support<em>Some WCAG AAA requirements are ridiculous</em></h1>
+</li>
+<li><h1>The Team Owns Accessibility</h1>
+</li>
+<li><h1>Include people with disabilities in your usability research<em><a href='http://www.uiaccess.com/accessucd/ut_plan.html#recruiting'>Recruiting Participants with Disabilities</a></em></h1>
 </li>
 <li><h1>Tools</h1>
 </li>
-<li><h1><a href="http://code.google.com/p/google-axs-chrome/">Chrome Extentions</a></h1>
+<li><h1><a href="http://code.google.com/p/google-axs-chrome/">Chrome Extensions</a></h1>
+</li>
+<li><h1><a href="http://www.deque.com/products/worldspace-fireeyes">Fire Eyes</a></h1>
+</li>
+<li><h1><a href="http://itunes.apple.com/app/colordeblind/id513529073">ColorDeBlind iOS app</a></h1>
+</li>
+<li><h1><a href="http://michelf.com/projects/sim-daltonism/">Sim Daltonism</a></h1>
+</li>
+<li><h1><a href="http://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.offering&amp;offeringid=10763&amp;marketplaceid=1">Contrast-A</a></h1>
+</li>
+<li><h1><a href="http://advanced.aviary.com/tools/color-swatches">Toucan color palettes</a></h1>
+</li>
+<li><h1><a href="https://developer.mozilla.org/en/Accessibility/Keyboard-navigable_JavaScript_widgets">Keyboard-navigable JavaScript widgets</a></h1>
+</li>
+<li><h1><a href="http://www.w3.org/WAI/PF/aria-practices/">WAI-ARIA Authoring Practices</a></h1>
+</li>
+<li><h1><a href="http://google-axs-chrome.googlecode.com/svn/trunk/developer/io_2011/index.html">Creating Accessible Interactive Web Apps Using HTML5</a></h1>
+</li>
+<li><h1><a href="http://www.slideshare.net/kingkool68/video-captioning-on-the-web">Video Captioning on the Web</a></h1>
+</li>
+<li><h1><a href="http://www.ablegamers.org/">Able Gamers</a></h1>
+</li>
+<li><h1><a href="http://www.slideshare.net/kingkool68/building-an-accessible-site-from-the-ground-up">Building An  Accessible Site from the ground up</a></h1>
+</li>
+<li><h1><a href="http://juicystudio.com/article/examining-wai-aria-document-andmark-roles.php">WAI-ARIA Landmark Roles</a></h1>
+</li>
+<li><h1><a href="http://www.mozilla.org/access/">Mozilla Accessibility</a></h1>
+</li>
+<li><h1><a href="http://www.accessibilitycamp.org/">Accessibility Camp</a></h1>
+</li>
+<li><h1><a href="http://uxprinciples.com/?page_id=108">Accessibility is Not a Checklist</a></h1>
 </li>
 </ul>
-<p></article>
-</p>
+<ul>
+<li class="final"> <h1>Knowledge of human users and the social context in which systems are expected to operate become integrated into the computer science agenda, even at the earliest stages of research and development.</h1><em><a href="http://www.ifp.illinois.edu/nsfhcs/bog_reports/bog4.html"> Rob Kling and Susan Leigh Star</a>&nbsp;&ndash;&nbsp; Human Centered Systems in the Perspective of Organizational and Social Informatics</em>
+
+<li class="final">   <h1>The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.</h1><em><a href='http://www.w3.org/Press/IPO-announce'>Tim Tim Berners-Lee</a></em> 
+</li>
+</ul>
+
+<ul>
+<li><h2>Aaron Jorbin</h2><img src='img/hate.jpg' alt='haters gone hate'/></li>
+</ul>
+</article>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write(&#39;<script src="js/jquery.js">&lt;\/script&gt;&#39;)</script>
+<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
 <script src="js/script.js"></script>
 <script>
-var _gaq=[[&#39;_setAccount&#39;,&#39;$=ga=%&#39;],[&#39;_trackPageview&#39;],[&#39;_trackPageLoadTime&#39;]];
+var _gaq=[['_setAccount','$=ga=%'],['_trackPageview'],['_trackPageLoadTime']];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-g.src=(&#39;https:&#39;==location.protocol?&#39;//ssl&#39;:&#39;//www&#39;)+&#39;.google-analytics.com/ga.js&#39;;
-s.parentNode.insertBefore(g,s)}(document,&#39;script&#39;));
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
