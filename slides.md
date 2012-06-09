@@ -94,7 +94,7 @@
     <em><a href='http://www.w3.org/TR/ATAG20/'>Authoring Tool Accessibility Guidelines</a></em>
 
 *   # 508 
-    <em><a href='http://www.section508.gov/'>Section 508 of the Americans with Disabilities Act</a></em>
+    <em><a href='http://www.section508.gov/'>Section 508 of the Rehabilitation Act</a></em>
 
 *   ## Jorbin's Three laws
     
