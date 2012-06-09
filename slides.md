@@ -108,11 +108,13 @@
 
 *   # Accessibility starts with Usability
 
-*   # Aim for an appropriate level of support<em>Some WCAG AAA requirements are ridiculous</em> 
+*   # Aim for an appropriate level of support
+    <em>Some WCAG AAA requirements are ridiculous</em> 
 
 *   # The Team Owns Accessibility 
 
-*   # Include people with disabilities in your usability research<em><a href='http://www.uiaccess.com/accessucd/ut_plan.html#recruiting'>Recruiting Participants with Disabilities</a></em>
+*   # Include people with disabilities in your usability research
+    <em><a href='http://www.uiaccess.com/accessucd/ut_plan.html#recruiting'>Recruiting Participants with Disabilities</a></em>
 
 *   # Tools
 
